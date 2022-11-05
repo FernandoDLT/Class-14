@@ -1,0 +1,44 @@
+/* * {
+    box-sizing: border-box;
+}
+
+h1, h2, form {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+h2 {
+  margin-top: 200px;
+  font-size: 150px;
+  font-weight: bold;
+  color: red;
+} */
+
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, form {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+h2 {
+  color: red;
+  font-size: 50px;
+}
+
+
+
+
+
+

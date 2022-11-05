@@ -1,0 +1,46 @@
+/* .hidden {
+    display: none;
+} */
+
+
+/* h1 {
+    color: black;
+    background: lightgray;
+    width: 15%;
+    border: 1px solid rgb(114, 110, 110);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h1:hover {
+    color: rgb(255, 0, 255);
+    background: white;
+    cursor: pointer;
+    border: 1px solid rgb(255, 0, 255);
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    background: lightgray;
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 50px auto;
+}
+
+img {
+    height: 400px;
+}
+
+h1:hover {
+    color: rgb(255, 0, 255);
+    background: white;
+    cursor: pointer;
+    border: 1px solid rgb(255, 0, 255);
+}

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, form, h2 {
+  text-align: center;
+}
+
+::placeholder {
+  color: lightgray;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  color: blue;
+  background-color: aqua;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: red;
+  font-size: 125px;
+}
