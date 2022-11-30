@@ -65,6 +65,8 @@ addTwo(1, 30)
 // Create a function that multis 3 numbers and console logs the product
 
 function multiThreeNums (nOne, nTwo, nThree) {
+    const product = nOne + nTwo + nThree
+    console.log(product)
     alert(nOne * nTwo * nThree)
 }
 multiThreeNums(2, 4, 3)
