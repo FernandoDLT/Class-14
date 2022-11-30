@@ -60,18 +60,19 @@
 function addTwo (numOne, numTwo) {
     alert(numOne + numTwo)
 }
-addTwo(1, 30)
+addTwo(2, 3)
 
 // Create a function that multis 3 numbers and console logs the product
 
 function multiThreeNums (nOne, nTwo, nThree) {
-    const product = nOne + nTwo + nThree
+    const product = nOne * nTwo * nThree
     console.log(product)
-    alert(nOne * nTwo * nThree)
+    // alert(nOne * nTwo * nThree)
 }
-multiThreeNums(2, 4, 3)
+multiThreeNums(2, 3, 4)
 
 function divTwoRetRem(numbOne, numbTwo) {
-    alert(numbOne % numbTwo)
+    return numbOne / numbTwo
+    // alert(numbOne % numbTwo)
 }
-divTwoRetRem(10, 3)
+console.log(divTwoRetRem(12, 6))
